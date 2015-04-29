@@ -1,0 +1,61 @@
+[DebugChecksum]
+Checksum=-949630307
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[Breakpoints]
+Count=0
+[RecentFlashDownload]
+Path=D:\projects\LPLD_OSKinetis_V3_now02\project\LPLD_OV7670\iar\FLASH\Exe\LPLD_OV7670_K60.out
+[watch_formats]
+Fmt0={W}0:c1	4	0
+Fmt1={W}0:c2	4	0
+Fmt2={W}0:coloer	4	0
+Fmt3={W}0:coloer1	4	0
+Fmt4={W}0:n	3	0
+Fmt5={W}0:t1	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$}.16.16" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\app\suqianlogo.h}.6.1" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "D:\LPLD_OSKinetis_V3www\lib\CPU\startup_K60.s" ""
+A1=_ "D:\LPLD_OSKinetis_V3www\lib\LPLD\DEV\DEV_LCD.c" ""
+Count=2
+SuppressDialog=1

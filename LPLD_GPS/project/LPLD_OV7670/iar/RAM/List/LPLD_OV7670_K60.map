@@ -1,0 +1,521 @@
+###############################################################################
+#
+# IAR ELF Linker V7.10.1.6676/W32 for ARM                 26/Dec/2014  19:02:44
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Exe\LPLD_OV7670_K60.out
+#    Map file     =  
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\List\LPLD_OV7670_K60.map
+#    Command line =  
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\alloc.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\assert.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\DEV_LCD.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\DEV_SCCB.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_ADC.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_CAN.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_DAC.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_DMA.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_ENET.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_FLASH.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_FLEXBUS.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_FTM.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_GPIO.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_I2C.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_LPTMR.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_MCG.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_PDB.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_PIT.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_RTC.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_SDHC.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_SPI.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_TSI.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_UART.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_USB.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\HW_WDOG.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\io.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\LPLD_OV7670.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\printf.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\queue.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\relocate.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\startup_K60.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\stdlib.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\system_MK60DZ10.o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj\uif.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Exe\LPLD_OV7670_K60.out
+#        --map
+#        D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\List\LPLD_OV7670_K60.map
+#        --config
+#        D:\LPLD_OSKinetis_V3www\lib\iar_config_files\LPLD_BOOT_K60DN512.icf
+#        --semihosting --entry __iar_program_start "D:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 7.0\arm\CMSIS\Lib\IAR\iar_cortexM4l_math.a"
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00005000 { ro section .intvec };
+"A2":  place at 0x00005410 { ro section .noinit };
+"P1":  place in [from 0x00005000 to 0x000053ff] |
+                [from 0x00005410 to 0x00080000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x400
+  .intvec              ro code  0x00005000   0x400  startup_K60.o [1]
+                              - 0x00005400   0x400
+
+"P1", part 1 of 2:                             0x0
+  .rodata              const    0x00005400     0x0  zero_init3.o [5]
+
+"A2":                                         0x14
+  .noinit              ro code  0x00005410    0x10  startup_K60.o [1]
+  .noinit              ro code  0x00005420     0x4  startup_K60.o [1]
+                              - 0x00005424    0x14
+
+"P1", part 2 of 2:                          0x3510
+  .text                ro code  0x00005424   0x820  LPLD_OV7670.o [1]
+  .text                ro code  0x00005c44   0x5b0  DEV_LCD.o [1]
+  .text                ro code  0x000061f4   0x190  HW_GPIO.o [1]
+  .text                ro code  0x00006384    0x56  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x000063da    0x22  zero_init3.o [5]
+  .text                ro code  0x000063fc   0x484  HW_DMA.o [1]
+  .text                ro code  0x00006880   0x35c  DEV_SCCB.o [1]
+  .text                ro code  0x00006bdc   0x30c  HW_FLEXBUS.o [1]
+  .text                ro code  0x00006ee8    0x14  assert.o [1]
+  .text                ro code  0x00006efc   0x4e4  printf.o [1]
+  .text                ro code  0x000073e0    0x1c  stdlib.o [1]
+  .text                ro code  0x000073fc   0x508  HW_UART.o [1]
+  .text                ro code  0x00007904   0x218  HW_SPI.o [1]
+  .text                ro code  0x00007b1c   0x1e2  HW_CAN.o [1]
+  Veneer               ro code  0x00007d00     0x8  - Linker created -
+  .text                ro code  0x00007d08   0x1a4  HW_MCG.o [1]
+  .text                ro code  0x00007eac   0x19c  system_MK60DZ10.o [1]
+  .text                ro code  0x00008048    0xa0  relocate.o [1]
+  .text                ro code  0x000080e8    0xf4  HW_DAC.o [1]
+  .text                ro code  0x000081dc    0xcc  HW_I2C.o [1]
+  .data_init                    0x000082a8    0x94  <Block>
+    Initializer bytes  ro data  0x000082a8    0x94  <for .data-1>
+  .text                ro code  0x0000833c    0x80  HW_ENET.o [1]
+  .text                ro code  0x000083bc    0x80  HW_PDB.o [1]
+  .text                ro code  0x0000843c    0x70  HW_TSI.o [1]
+  .text                ro code  0x000084ac    0x6c  HW_PIT.o [1]
+  .text                ro code  0x00008518    0x60  HW_RTC.o [1]
+  CodeRelocate                  0x00008578    0x4c  <Block>
+    Initializer bytes  ro data  0x00008578    0x4c  <for CodeRelocateRam-1>
+  .rodata              const    0x000085c4    0x48  system_MK60DZ10.o [1]
+  .rodata              const    0x0000860c    0x44  system_MK60DZ10.o [1]
+  .rodata              const    0x00008650    0x44  system_MK60DZ10.o [1]
+  .rodata              const    0x00008694    0x34  HW_FLEXBUS.o [1]
+  .rodata              const    0x000086c8    0x30  assert.o [1]
+  .rodata              const    0x000086f8    0x30  HW_DMA.o [1]
+  .rodata              const    0x00008728    0x30  HW_GPIO.o [1]
+  .rodata              const    0x00008758    0x30  system_MK60DZ10.o [1]
+  .rodata              const    0x00008788    0x30  system_MK60DZ10.o [1]
+  .text                ro code  0x000087b8    0x28  data_init.o [5]
+  .rodata              const    0x000087e0    0x24  system_MK60DZ10.o [1]
+  .rodata              const    0x00008804    0x24  system_MK60DZ10.o [1]
+  .text                ro code  0x00008828    0x24  HW_FTM.o [1]
+  .iar.init_table      const    0x0000884c    0x10  - Linker created -
+  .rodata              const    0x0000885c    0x20  system_MK60DZ10.o [1]
+  .text                ro code  0x0000887c    0x20  HW_LPTMR.o [1]
+  .text                ro code  0x0000889c    0x1c  HW_ADC.o [1]
+  .text                ro code  0x000088b8    0x1a  cmain.o [5]
+  .text                ro code  0x000088d2     0x4  low_level_init.o [3]
+  .text                ro code  0x000088d6     0x4  exit.o [3]
+  .text                ro code  0x000088dc     0xa  cexit.o [5]
+  .text                ro code  0x000088e8    0x14  exit.o [6]
+  .text                ro code  0x000088fc    0x14  io.o [1]
+  .text                ro code  0x00008910    0x10  HW_USB.o [1]
+  .text                ro code  0x00008920     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000892c     0x8  system_MK60DZ10.o [1]
+                              - 0x00008934  0x3510
+
+"P2", part 1 of 3:                            0xe0
+  .data                         0x1fff0410    0x94  <Block>
+    .data-1                     0x1fff0410    0x94  <Init block>
+      .data            inited   0x1fff0410    0x80  HW_FLEXBUS.o [1]
+      .data            inited   0x1fff0490     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff0494     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff0498     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff049c     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff04a0     0x4  system_MK60DZ10.o [1]
+  CodeRelocateRam               0x1fff04a4    0x4c  <Block>
+    CodeRelocateRam-1           0x1fff04a4    0x4c  <Init block>
+      .textrw          inited   0x1fff04a4    0x4c  HW_MCG.o [1]
+                              - 0x1fff04f0    0xe0
+
+"P2", part 2 of 3:                          0xc668
+  .bss                          0x1fff04f0  0xc664  <Block>
+    .bss               zero     0x1fff04f0     0x8  DEV_LCD.o [1]
+    .bss               zero     0x1fff04f8     0x8  HW_ADC.o [1]
+    .bss               zero     0x1fff0500   0x100  HW_CAN.o [1]
+    .bss               zero     0x1fff0600    0x40  HW_CAN.o [1]
+    .bss               zero     0x1fff0640    0x40  HW_CAN.o [1]
+    .bss               zero     0x1fff0680     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff0688     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff0690     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff0698    0x40  HW_DMA.o [1]
+    .bss               zero     0x1fff06d8    0x10  HW_ENET.o [1]
+    .bss               zero     0x1fff06e8     0xc  HW_FTM.o [1]
+    .bss               zero     0x1fff06f4    0x14  HW_GPIO.o [1]
+    .bss               zero     0x1fff0708     0x8  HW_I2C.o [1]
+    .bss               zero     0x1fff0710     0x4  HW_LPTMR.o [1]
+    .bss               zero     0x1fff0714     0x4  HW_PDB.o [1]
+    .bss               zero     0x1fff0718     0x4  HW_PDB.o [1]
+    .bss               zero     0x1fff071c    0x10  HW_PIT.o [1]
+    .bss               zero     0x1fff072c     0xc  HW_RTC.o [1]
+    .bss               zero     0x1fff0738    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff0750    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff0768    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff0780     0x8  HW_TSI.o [1]
+    .bss               zero     0x1fff0788    0x18  HW_UART.o [1]
+    .bss               zero     0x1fff07a0    0x18  HW_UART.o [1]
+    .bss               zero     0x1fff07b8     0x4  HW_USB.o [1]
+    .bss               zero     0x1fff07bc    0x14  LPLD_OV7670.o [1]
+    .bss               zero     0x1fff07d0    0x2c  LPLD_OV7670.o [1]
+    .bss               zero     0x1fff07fc  0xc350  LPLD_OV7670.o [1]
+    .bss               zero     0x1fffcb4c     0x4  LPLD_OV7670.o [1]
+    .bss               zero     0x1fffcb50     0x2  LPLD_OV7670.o [1]
+    .bss               zero     0x1fffcb52     0x1  LPLD_OV7670.o [1]
+                              - 0x1fffcb54  0xc664
+
+"P2", part 3 of 3:                          0x2000
+  CSTACK                        0x1fffcb58  0x2000  <Block>
+    CSTACK             uninit   0x1fffcb58  0x2000  <Block tail>
+                              - 0x1fffeb58  0x2000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc663:
+          0x1fff04f0  0xc663
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj: [1]
+    DEV_LCD.o                1 456                          8
+    DEV_SCCB.o                 860
+    HW_ADC.o                    28                          8
+    HW_CAN.o                   482                        384
+    HW_DAC.o                   244                         24
+    HW_DMA.o                 1 156                48       64
+    HW_ENET.o                  128                         16
+    HW_FLEXBUS.o               780               180      128
+    HW_FTM.o                    36                         12
+    HW_GPIO.o                  400                48       20
+    HW_I2C.o                   204                          8
+    HW_LPTMR.o                  32                          4
+    HW_MCG.o                   420       76       92       16
+    HW_PDB.o                   128                          8
+    HW_PIT.o                   108                         16
+    HW_RTC.o                    96                         12
+    HW_SPI.o                   536                         72
+    HW_TSI.o                   112                          8
+    HW_UART.o                1 288                         48
+    HW_USB.o                    16                          4
+    LPLD_OV7670.o            2 080                     50 071
+    assert.o                    20                48
+    io.o                        20
+    printf.o                 1 252
+    relocate.o                 160
+    startup_K60.o            1 044
+    stdlib.o                    28
+    system_MK60DZ10.o          412               420        4
+    ---------------------------------------------------------
+    Total:                  13 526       76      836   50 935
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ---------------------------------------------------------
+    Total:                       8
+
+m7M_tl.a: [4]
+    ---------------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       86
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                34
+    ---------------------------------------------------------
+    Total:                     208
+
+shb_l.a: [6]
+    exit.o                      20
+    ---------------------------------------------------------
+    Total:                      20
+
+    Gaps                         6
+    Linker created               8                16    8 192
+-------------------------------------------------------------
+    Grand Total:            13 776       76      852   59 127
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff04f0           --   Gb  - Linker created -
+.bss$$Limit             0x1fffcb54           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff04a4           --   Gb  - Linker created -
+.data_init$$Base        0x000082a8           --   Gb  - Linker created -
+.data_init$$Limit       0x0000833c           --   Gb  - Linker created -
+?main                   0x000088b9          Code  Gb  cmain.o [5]
+ADC0_IRQHandler         0x0000889d     0xa  Code  Gb  HW_ADC.o [1]
+ADC1_IRQHandler         0x000088a7     0xa  Code  Gb  HW_ADC.o [1]
+ADC_ISR                 0x1fff04f8     0x8  Data  Gb  HW_ADC.o [1]
+ASSERT_FAILED_STR       0x000086c8    0x30  Data  Gb  assert.o [1]
+CAN0_BUS_OFF_IRQHandler
+                        0x00007c77     0x8  Code  Gb  HW_CAN.o [1]
+CAN0_ERR_IRQHandler     0x00007c7f     0xe  Code  Gb  HW_CAN.o [1]
+CAN0_IMEU_IRQHandler    0x00007ca3     0x2  Code  Gb  HW_CAN.o [1]
+CAN0_ISR                0x1fff0600    0x40  Data  Gb  HW_CAN.o [1]
+CAN0_LR_IRQHandler      0x00007ca5     0x2  Code  Gb  HW_CAN.o [1]
+CAN0_MESS_IRQHandler    0x00007c6f     0x8  Code  Gb  HW_CAN.o [1]
+CAN0_RW_IRQHandler      0x00007c97     0xa  Code  Gb  HW_CAN.o [1]
+CAN0_TW_IRQHandler      0x00007c8d     0xa  Code  Gb  HW_CAN.o [1]
+CAN0_WAKE_UP_IRQHandler
+                        0x00007ca1     0x2  Code  Gb  HW_CAN.o [1]
+CAN1_BUS_OFF_IRQHandler
+                        0x00007caf     0x8  Code  Gb  HW_CAN.o [1]
+CAN1_ERR_IRQHandler     0x00007cb7     0xe  Code  Gb  HW_CAN.o [1]
+CAN1_IMEU_IRQHandler    0x00007cfb     0x2  Code  Gb  HW_CAN.o [1]
+CAN1_ISR                0x1fff0640    0x40  Data  Gb  HW_CAN.o [1]
+CAN1_LR_IRQHandler      0x00007cfd     0x2  Code  Gb  HW_CAN.o [1]
+CAN1_MESS_IRQHandler    0x00007ca7     0x8  Code  Gb  HW_CAN.o [1]
+CAN1_RW_IRQHandler      0x00007ccf     0xa  Code  Gb  HW_CAN.o [1]
+CAN1_TW_IRQHandler      0x00007cc5     0xa  Code  Gb  HW_CAN.o [1]
+CAN1_WAKE_UP_IRQHandler
+                        0x00007cf9     0x2  Code  Gb  HW_CAN.o [1]
+CSTACK$$Base            0x1fffcb58           --   Gb  - Linker created -
+CSTACK$$Limit           0x1fffeb58           --   Gb  - Linker created -
+CodeRelocate$$Base      0x00008578           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x000085c4           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff04a4           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff04f0           --   Gb  - Linker created -
+DAC0_IRQHandler         0x000080e9    0x6a  Code  Gb  HW_DAC.o [1]
+DAC1_IRQHandler         0x00008153    0x6a  Code  Gb  HW_DAC.o [1]
+DAC_RDPTBOT_ISR         0x1fff0680     0x8  Data  Gb  HW_DAC.o [1]
+DAC_RDPTTOP_ISR         0x1fff0688     0x8  Data  Gb  HW_DAC.o [1]
+DAC_WATERMK_ISR         0x1fff0690     0x8  Data  Gb  HW_DAC.o [1]
+DMA0_IRQHandler         0x000066ff    0x16  Code  Gb  HW_DMA.o [1]
+DMA10_IRQHandler        0x000067db    0x16  Code  Gb  HW_DMA.o [1]
+DMA11_IRQHandler        0x000067f1    0x16  Code  Gb  HW_DMA.o [1]
+DMA12_IRQHandler        0x00006807    0x16  Code  Gb  HW_DMA.o [1]
+DMA13_IRQHandler        0x0000681d    0x16  Code  Gb  HW_DMA.o [1]
+DMA14_IRQHandler        0x00006833    0x16  Code  Gb  HW_DMA.o [1]
+DMA15_IRQHandler        0x00006849    0x16  Code  Gb  HW_DMA.o [1]
+DMA1_IRQHandler         0x00006715    0x16  Code  Gb  HW_DMA.o [1]
+DMA2_IRQHandler         0x0000672b    0x16  Code  Gb  HW_DMA.o [1]
+DMA3_IRQHandler         0x00006741    0x16  Code  Gb  HW_DMA.o [1]
+DMA4_IRQHandler         0x00006757    0x16  Code  Gb  HW_DMA.o [1]
+DMA5_IRQHandler         0x0000676d    0x16  Code  Gb  HW_DMA.o [1]
+DMA6_IRQHandler         0x00006783    0x16  Code  Gb  HW_DMA.o [1]
+DMA7_IRQHandler         0x00006799    0x16  Code  Gb  HW_DMA.o [1]
+DMA8_IRQHandler         0x000067af    0x16  Code  Gb  HW_DMA.o [1]
+DMA9_IRQHandler         0x000067c5    0x16  Code  Gb  HW_DMA.o [1]
+DMA_ISR                 0x1fff0698    0x40  Data  Gb  HW_DMA.o [1]
+DefaultISR              0x00007fd1    0x14  Code  Gb  system_MK60DZ10.o [1]
+ENET_ISR                0x1fff06d8    0x10  Data  Gb  HW_ENET.o [1]
+Eth_Err_Misc_IRQHandler
+                        0x0000839f    0x16  Code  Gb  HW_ENET.o [1]
+Eth_IEEE1588_IRQHandler
+                        0x00008389    0x16  Code  Gb  HW_ENET.o [1]
+Eth_RX_IRQHandler       0x0000833d    0x26  Code  Gb  HW_ENET.o [1]
+Eth_TX_IRQHandler       0x00008363    0x26  Code  Gb  HW_ENET.o [1]
+FB_PORT                 0x1fff0410    0x80  Data  Gb  HW_FLEXBUS.o [1]
+FTM0_IRQHandler         0x00008829     0xa  Code  Gb  HW_FTM.o [1]
+FTM1_IRQHandler         0x00008833     0xa  Code  Gb  HW_FTM.o [1]
+FTM2_IRQHandler         0x0000883d     0xa  Code  Gb  HW_FTM.o [1]
+FTM_ISR                 0x1fff06e8     0xc  Data  Gb  HW_FTM.o [1]
+GPIO_ISR                0x1fff06f4    0x14  Data  Gb  HW_GPIO.o [1]
+HardFault_Handler       0x00007fc7     0xa  Code  Gb  system_MK60DZ10.o [1]
+I2C0_IRQHandler         0x000081dd    0x5a  Code  Gb  HW_I2C.o [1]
+I2C1_IRQHandler         0x00008237    0x5a  Code  Gb  HW_I2C.o [1]
+I2C_ISR                 0x1fff0708     0x8  Data  Gb  HW_I2C.o [1]
+Is_DispPhoto            0x1fffcb52     0x1  Data  Gb  LPLD_OV7670.o [1]
+LPLD_CAN_Interrupt_ClearPending
+                        0x00007b1d    0x24  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Interrupt_GetFlag
+                        0x00007b41    0x1e  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_MB_ISR         0x00007c15    0x5a  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Receive_Interrupt
+                        0x00007bb9    0x5c  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Transmit_Interrupt
+                        0x00007b5f    0x5a  Code  Gb  HW_CAN.o [1]
+LPLD_DMA_Init           0x000063fd   0x302  Code  Gb  HW_DMA.o [1]
+LPLD_FlexBus_Init       0x00006bdd   0x30c  Code  Gb  HW_FLEXBUS.o [1]
+LPLD_GPIO_Init          0x000061f5    0xe4  Code  Gb  HW_GPIO.o [1]
+LPLD_GPIO_Input_8b      0x000062d9     0x8  Code  Gb  HW_GPIO.o [1]
+LPLD_LCD_Delayms        0x00005c45    0x1c  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_FLEXBUS_Init   0x00005c61    0x50  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_INFO           0x1fff04f0     0x8  Data  Gb  DEV_LCD.o [1]
+LPLD_LCD_IO_Cfg         0x00005cb1    0x36  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_Init           0x00005d4d   0x46a  Code  Gb  DEV_LCD.o [1]
+LPLD_LCD_Reset          0x00005d33    0x1a  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_SetCursor      0x00005d0b    0x28  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_SetPoint       0x000061b7    0x2c  Code  Gb  DEV_LCD.o [1]
+LPLD_LCD_WriteData      0x00005cef     0x8  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_WriteIndex     0x00005ce7     0x8  Code  Lc  DEV_LCD.o [1]
+LPLD_LCD_WriteReg       0x00005cf7    0x14  Code  Lc  DEV_LCD.o [1]
+LPLD_PLL_Setup          0x00007d09   0x1a4  Code  Gb  HW_MCG.o [1]
+LPLD_SCCB_Ack           0x00006a2f    0x3c  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_Delay         0x00006bd1     0xc  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_Init          0x00006881    0x3e  Code  Gb  DEV_SCCB.o [1]
+LPLD_SCCB_NoAck         0x00006a6b    0x3c  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_ReadReg       0x0000690d    0x84  Code  Gb  DEV_SCCB.o [1]
+LPLD_SCCB_ReceiveByte   0x00006b53    0x62  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_SendByte      0x00006b01    0x52  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_Start         0x00006991    0x6a  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_Stop          0x000069fb    0x34  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_WaitAck       0x00006aa7    0x5a  Code  Lc  DEV_SCCB.o [1]
+LPLD_SCCB_WriteReg      0x000068bf    0x4e  Code  Gb  DEV_SCCB.o [1]
+LPLD_Set_SYS_DIV        0x1fff04a5    0x4c  Code  Gb  HW_MCG.o [1]
+LPLD_UART_Init          0x000073fd   0x314  Code  Gb  HW_UART.o [1]
+LPLD_UART_PutChar       0x00007711     0xa  Code  Gb  HW_UART.o [1]
+LPTMR_ISR               0x1fff0710     0x4  Data  Gb  HW_LPTMR.o [1]
+LPT_IRQHandler          0x0000887d    0x16  Code  Gb  HW_LPTMR.o [1]
+NVIC_EnableIRQ          0x00005425    0x14  Code  Lc  LPLD_OV7670.o [1]
+PDB_IRQHandler          0x000083bd    0x6a  Code  Gb  HW_PDB.o [1]
+PDB_ISR                 0x1fff0714     0x4  Data  Gb  HW_PDB.o [1]
+PDB_SE_ISR              0x1fff0718     0x4  Data  Gb  HW_PDB.o [1]
+PIT0_IRQHandler         0x000084ad    0x16  Code  Gb  HW_PIT.o [1]
+PIT1_IRQHandler         0x000084c3    0x16  Code  Gb  HW_PIT.o [1]
+PIT2_IRQHandler         0x000084d9    0x16  Code  Gb  HW_PIT.o [1]
+PIT3_IRQHandler         0x000084ef    0x16  Code  Gb  HW_PIT.o [1]
+PIT_ISR                 0x1fff071c    0x10  Data  Gb  HW_PIT.o [1]
+PORTA_IRQHandler        0x000062e1    0x12  Code  Gb  HW_GPIO.o [1]
+PORTB_IRQHandler        0x000062f3    0x12  Code  Gb  HW_GPIO.o [1]
+PORTC_IRQHandler        0x00006305    0x12  Code  Gb  HW_GPIO.o [1]
+PORTD_IRQHandler        0x00006317    0x12  Code  Gb  HW_GPIO.o [1]
+PORTE_IRQHandler        0x00006329    0x12  Code  Gb  HW_GPIO.o [1]
+Pix_Data                0x1fff07fc  0xc350  Data  Gb  LPLD_OV7670.o [1]
+RTC_IRQHandler          0x00008519    0x56  Code  Gb  HW_RTC.o [1]
+RTC_ISR                 0x1fff072c     0xc  Data  Gb  HW_RTC.o [1]
+Region$$Table$$Base     0x0000884c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000885c           --   Gb  - Linker created -
+SPI0_IRQHandler         0x00007905    0xaa  Code  Gb  HW_SPI.o [1]
+SPI0_ISR                0x1fff0738    0x18  Data  Gb  HW_SPI.o [1]
+SPI1_IRQHandler         0x000079af    0xaa  Code  Gb  HW_SPI.o [1]
+SPI1_ISR                0x1fff0750    0x18  Data  Gb  HW_SPI.o [1]
+SPI2_IRQHandler         0x00007a59    0xaa  Code  Gb  HW_SPI.o [1]
+SPI2_ISR                0x1fff0768    0x18  Data  Gb  HW_SPI.o [1]
+SystemCoreClock         0x1fff04a0     0x4  Data  Gb  system_MK60DZ10.o [1]
+SystemCoreClockUpdate   0x00007fa1    0x26  Code  Gb  system_MK60DZ10.o [1]
+SystemInit              0x00007ead    0xf4  Code  Gb  system_MK60DZ10.o [1]
+TSI_IRQHandler          0x0000843d    0x5c  Code  Gb  HW_TSI.o [1]
+TSI_ISR                 0x1fff0780     0x8  Data  Gb  HW_TSI.o [1]
+UART0_IRQHandler        0x0000771b    0x30  Code  Gb  HW_UART.o [1]
+UART1_IRQHandler        0x0000774b    0x30  Code  Gb  HW_UART.o [1]
+UART2_IRQHandler        0x0000777b    0x30  Code  Gb  HW_UART.o [1]
+UART3_IRQHandler        0x000077ab    0x30  Code  Gb  HW_UART.o [1]
+UART4_IRQHandler        0x000077db    0x30  Code  Gb  HW_UART.o [1]
+UART5_IRQHandler        0x0000780b    0x30  Code  Gb  HW_UART.o [1]
+UART_R_ISR              0x1fff0788    0x18  Data  Gb  HW_UART.o [1]
+UART_T_ISR              0x1fff07a0    0x18  Data  Gb  HW_UART.o [1]
+USB_ISR                 0x1fff07b8     0x4  Data  Gb  HW_USB.o [1]
+USB_OTG_IRQHandler      0x00008911     0xa  Code  Gb  HW_USB.o [1]
+V_Cnt                   0x1fffcb4c     0x4  Data  Gb  LPLD_OV7670.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00005000           --   Gb  command line/config [2]
+__Vectors               0x00005000           --   Gb  startup_K60.o [1]
+__Vectors_End           0x00005400          Data  Gb  startup_K60.o [1]
+__Vectors_Size {Abs}    0x00000400           --   Gb  startup_K60.o [1]
+__cmain                 0x000088b9          Code  Gb  cmain.o [5]
+__exit                  0x000088e9    0x14  Code  Gb  exit.o [6]
+__iar_data_init3        0x000087b9    0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x00008921          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x00006385          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x00006385          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x000063db    0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x000088d3     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00005000          Data  Gb  startup_K60.o [1]
+__vector_table_0x1c     0x0000501c          Data  Gb  startup_K60.o [1]
+_call_main              0x000088c5          Code  Gb  cmain.o [5]
+_exit                   0x000088dd          Code  Gb  cexit.o [5]
+_main                   0x000088cf          Code  Gb  cmain.o [5]
+assert_failed           0x00006ee9    0x14  Code  Gb  assert.o [1]
+coloer                  0x1fffcb50     0x2  Data  Gb  LPLD_OV7670.o [1]
+common_relocate         0x00008049    0xa0  Code  Gb  relocate.o [1]
+delay                   0x00005701    0x20  Code  Gb  LPLD_OV7670.o [1]
+dma_init                0x000055cf    0x4c  Code  Gb  LPLD_OV7670.o [1]
+dma_init_struct         0x1fff07d0    0x2c  Data  Gb  LPLD_OV7670.o [1]
+exit                    0x000088d7     0x4  Code  Gb  exit.o [3]
+flexcan_msgobj_param_t  0x1fff0500   0x100  Data  Gb  HW_CAN.o [1]
+g_bus_clock             0x1fff0494     0x4  Data  Gb  HW_MCG.o [1]
+g_core_clock            0x1fff0490     0x4  Data  Gb  HW_MCG.o [1]
+g_flash_clock           0x1fff0498     0x4  Data  Gb  HW_MCG.o [1]
+g_flexbus_clock         0x1fff049c     0x4  Data  Gb  HW_MCG.o [1]
+gpio_init               0x00005517    0xb8  Code  Gb  LPLD_OV7670.o [1]
+main                    0x00005439    0x72  Code  Gb  LPLD_OV7670.o [1]
+out_char                0x000088fd     0xe  Code  Gb  io.o [1]
+ov7670_init             0x000056ad    0x54  Code  Gb  LPLD_OV7670.o [1]
+ov7670_show             0x000054ab    0x36  Code  Gb  LPLD_OV7670.o [1]
+porta_isr               0x0000561d    0x4e  Code  Gb  LPLD_OV7670.o [1]
+printf                  0x000073bf    0x1e  Code  Gb  printf.o [1]
+printk                  0x00006fd5   0x3ea  Code  Gb  printf.o [1]
+printk_mknumstr         0x00006f29    0x70  Code  Lc  printf.o [1]
+printk_pad_space        0x00006fb7    0x1e  Code  Lc  printf.o [1]
+printk_pad_zero         0x00006f99    0x1e  Code  Lc  printf.o [1]
+printk_putc             0x00006efd    0x2c  Code  Lc  printf.o [1]
+pta_init                0x1fff07bc    0x14  Data  Gb  LPLD_OV7670.o [1]
+read_fifo               0x000054e1    0x36  Code  Gb  LPLD_OV7670.o [1]
+set_ov7670reg           0x00005721   0x524  Code  Gb  LPLD_OV7670.o [1]
+strlen                  0x000073e1    0x1c  Code  Gb  stdlib.o [1]
+
+
+[1] = D:\LPLD_OSKinetis_V3www\project\LPLD_OV7670\iar\RAM\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  13 776 bytes of readonly  code memory
+      76 bytes of readwrite code memory
+     852 bytes of readonly  data memory
+  59 127 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
